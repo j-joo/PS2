@@ -30,5 +30,4 @@ public class MyInteger_Test {
 	public void test() {
 		assertTrue(1==1);
 	}
-
 }
