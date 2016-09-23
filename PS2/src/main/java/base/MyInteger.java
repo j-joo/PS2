@@ -83,15 +83,4 @@ public class MyInteger {
 		else 
 			return false;
 	}
-	public static void main(String[] args) {
-		MyInteger a = new MyInteger(7);
-		MyInteger b = new MyInteger(9);
-		System.out.println(isPrime(a));
-		System.out.println(isPrime(b));
-		System.out.println(isOdd(a));
-		System.out.println(isEven(b));
-		System.out.println(a.equals(5));
-		System.out.println(a.equals(2));
-		System.out.println(a.equals(b));
-	}
 }
